@@ -1,0 +1,138 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+section {
+    margin-bottom: 10px; 
+}
+
+/* Header */
+header {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    text-align: left;
+    padding: 20px; 
+}
+
+header img {
+    width: 350px;
+    margin-bottom: 1px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1px 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección 1 */
+section#inicio {
+    background-color: #e2e2e2; 
+    padding: 40px 20px;
+    text-align: left;
+}
+
+section#inicio h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Sección 2 */
+section#habilidades {
+    background-color: #e2e2e2; 
+    padding: 40px 20px;
+}
+
+section#habilidades h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+section#habilidades ul {
+    padding-left: 20px;
+}
+
+section#habilidades ul li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+/* Sección 3 */
+section#proyectos {
+    background-color: #e2e2e2; 
+    padding: 40px 20px; 
+}
+
+section#proyectos h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Sección 4 */
+section#contacto {
+    padding: 40px 20px;
+    background-color: #e2e2e2; 
+}
+
+section#contacto h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.fila-enlaces {
+    display: flex; 
+    justify-content: left; 
+    gap: 10px;             
+}
+
+.imagen-enlace {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+        .gif-container, .video-container {
+            margin: 20px; 
+            border: 2px solid #000; 
+            display: inline-block; 
+        }
+
+        img {
+            max-width: 100%; 
+            height: auto; 
+        }
+
+        video {
+            max-width: 100%; 
+            height: auto; 
+        }
+   
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
